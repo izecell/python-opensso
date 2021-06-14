@@ -16,7 +16,7 @@ __author__ = 'Jathan McCollum <jathan+bitbucket@gmail.com>'
 __version__ = '0.1.3'
 
 import urllib
-import urllib2
+import urllib.request
 
 # REST API URIs
 REST_OPENSSO_LOGIN = '/identity/authenticate'
