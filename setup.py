@@ -19,7 +19,7 @@ class CleanCommand(Command):
     def finalize_options(self):
         self.files = './build ./dist ./MANIFEST ./*.pyc examples/*.pyc ./*.egg-info'
     def run(self):
-        print 'Cleaning: %s' % self.files
+        print ('Cleaning: %s' % self.files)
         os.system('rm -rf ' + self.files)
 
 long_desc="""
